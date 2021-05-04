@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyWiki</string>
+    <string name="splash_text">MyWiki</string>
+    <string name="home">Home</string>
+    <string name="explore">Explore</string>
+    <string name="upload">Upload</string>
+    <string name="Explore_page">My Explore Page! Content flows Here</string>
+    <string name="Upload_page">Forms needed for data entry from users</string>
+    <string name="date_format">12 Jun 2020 09:23</string>
+    <string name="content_author">Elda Morar</string>
+    <string name="sample_content">Alias sequi reprehenderit ipsa ad atque et facilis magni. Illum ut totam ut recusandae. Accusamus animi eligendi itaque dolore numquam in ea. Ut minima necessitatibus velit voluptatum.</string>
+    <string name="FailureMsg">Something went wrong. Please check your Internet connection and try again later</string>
+    <string name="UnsuccessfulMsg">Something went wrong. Please try again later</string>
+    <string name="key">articles</string>
+    <string name="sample_email">Get In Touch: myemail@articles.com</string>
+    <string name="contact">Get In Touch:  </string>
+    <string name="post_new_content">Post New Content</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="author">Author</string>
+    <string name="email">Email</string>
+    <string name="creation_date">Creation Date</string>
+    <string name="author_photo">Author Photo</string>
+    <string name="content_image">Content Image</string>
+    <string name="upload_content">Upload</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="signup">signup</string>
+    <string name="credentials_please">Credentials Please</string>
+    <string name="login">LOGIN</string>
+    <string name="i_don_t_have_an_account_sign_me_up">I don\'t have an account, sign me up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_title">First man to land on the moon</string>
+    <string name="content1">The official music video for Bruno MarsVersace on the Floor from the album \'24K Magic\'. 🔔 Subscribe for the latest official music videos, live performances, lyric videos, official audio, and</string>
+    <string name="update_shit">Update Shit</string>
+    <string name="delete">Delete</string>
+    <string name="update_content">Update Content</string>
+    <string name="posts">Posts</string>
+    <string name="update">Update</string>
+</resources>

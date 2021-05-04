@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.articles.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:networkSecurityConfig="@xml/network_security"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ArticlesApp">
+        <activity android:name=".ui.UpdateActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ContentList"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".signup.LoginActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".signup.SignUpActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".UploadContent"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ExploreScreen"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ContentListDetails"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ArticleDetails"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SplashScreen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

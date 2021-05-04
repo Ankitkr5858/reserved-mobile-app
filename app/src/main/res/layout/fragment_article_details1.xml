@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/article_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:paddingRight="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/author_profile"
+                        android:src="@drawable/profilepic"
+                        android:layout_width="48dp"
+                        android:layout_height="44dp"
+                        android:scaleType="fitCenter"
+                        app:riv_corner_radius="30dip"
+                        app:riv_border_width="2dip"
+                        app:riv_border_color="@color/slateblue"
+                        app:riv_mutate_background="true"
+                        app:riv_tile_mode="repeat"
+                        app:riv_oval="true" />
+
+                    <TextView
+                        android:id="@+id/article_author"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="65dp"
+                        android:layout_marginLeft="65dp"
+                        android:layout_marginTop="13dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/content_author"
+                        android:textColor="@color/slateblue"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/content_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/content_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="283dp"
+                    app:srcCompat="@drawable/puppy" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="236dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_thin"
+                        android:text="@string/sample_content"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/date_published"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/roboto_thin"
+                        android:gravity="right|left"
+                        android:text="@string/date_format"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/author_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/date_published"
+                        android:layout_below="@+id/content"
+                        android:layout_marginTop="49dp"
+                        android:layout_marginBottom="19dp"
+                        android:fontFamily="@font/roboto_thin"
+                        android:text="@string/sample_email"
+                        android:textColor="@color/black" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
